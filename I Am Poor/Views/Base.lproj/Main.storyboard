@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNc-Fo-tGk">
+                                <rect key="frame" x="98" y="149" width="178" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="q9q-zn-Yla">
+                                <rect key="frame" x="112" y="269.5" width="151" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No me preguntes por dinero 💸💸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gm9-8b-Ydx">
+                                <rect key="frame" x="54" y="93" width="266" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YXn-TU-Lss"/>
+                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NNc-Fo-tGk" firstAttribute="leading" secondItem="YXn-TU-Lss" secondAttribute="leading" constant="98" id="EWy-W9-sev"/>
+                            <constraint firstItem="Gm9-8b-Ydx" firstAttribute="top" secondItem="YXn-TU-Lss" secondAttribute="top" constant="93" id="FIm-RX-UOC"/>
+                            <constraint firstItem="q9q-zn-Yla" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I0S-g8-tAq"/>
+                            <constraint firstItem="q9q-zn-Yla" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vs3-O1-xNp"/>
+                            <constraint firstItem="NNc-Fo-tGk" firstAttribute="top" secondItem="Gm9-8b-Ydx" secondAttribute="bottom" constant="35" id="W9q-7h-tLL"/>
+                            <constraint firstItem="YXn-TU-Lss" firstAttribute="trailing" secondItem="Gm9-8b-Ydx" secondAttribute="trailing" constant="55" id="tLl-ES-oBk"/>
+                            <constraint firstItem="YXn-TU-Lss" firstAttribute="trailing" secondItem="NNc-Fo-tGk" secondAttribute="trailing" constant="99" id="txf-gI-DBc"/>
+                            <constraint firstItem="Gm9-8b-Ydx" firstAttribute="leading" secondItem="YXn-TU-Lss" secondAttribute="leading" constant="54" id="y5Y-EI-8lJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="151" height="128"/>
+    </resources>
+</document>
